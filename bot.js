@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
-/////////////////////////////////////////////حقوق الفا كودز
-///////////////////////// ALPHA BEST
+const client = new Discord.Client();T
 client.on('ready', () => {
 console.log('Logging into discord..');
 console.log(`
@@ -65,7 +63,7 @@ message.channel.sendEmbed(embed)
 
 }
 }); 
-////////////ALPHA BEST
+
 client.on("message", message => {
  if (message.content === "R-helpvc") {
 
@@ -2213,7 +2211,6 @@ client.on('message', message => {
 	
 });
 
-//rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 
        
 client.login(process.env.BOT_TOKEN);
